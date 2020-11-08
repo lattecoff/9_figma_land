@@ -210,6 +210,9 @@
 	}
 
 	.price-list {
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
 		padding: 90px 0 100px;
 	}
 
@@ -328,7 +331,6 @@
 		}
 	
 		.btn {
-	
 			background: #fff;
 	
 			.inscription a {
