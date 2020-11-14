@@ -225,7 +225,7 @@
 }
 
 .pricing .container {
-	max-width: 1050px;
+	max-width: 1205px;
 	margin: 0 auto;
 	padding: 110px 0 10px;
 
@@ -258,10 +258,11 @@
 		display: flex;
 		justify-content: space-around;
 		flex-wrap: wrap;
-		padding: 90px 0 100px;
+		padding: 65px 0 75px;
 	}
 
 	.price__item {
+		margin: 25px;
 		max-width: 335px;
 		padding: 40px;
 		background: #FFFFFF;
@@ -384,4 +385,6 @@
 		}
 	}
 }
+
+
 
