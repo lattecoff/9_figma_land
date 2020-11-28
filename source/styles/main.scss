@@ -4,6 +4,68 @@
 	padding: 0;
 }
 
+.features {
+	.container {
+		padding: 80px 0;
+		font-family: 'Roboto';
+		font-style: normal;
+
+		.subtitle-top {
+			font-weight: 700;
+			font-size: 22px;
+			line-height: 33px;
+			text-align: center;
+			letter-spacing: 0.1px;
+			color: #252B42;
+		}
+
+		.title {
+			padding: 20px 0 30px;
+			font-weight: 400;
+			font-size: 46px;
+			line-height: 57px;
+			text-align: center;
+			letter-spacing: 0.2px;
+			color: #252B42;
+		}
+
+		.subtitle-bottom {
+			font-weight: 700;
+			font-size: 16px;
+			line-height: 20px;
+			text-align: center;
+			letter-spacing: 0.2px;
+			color: #374754;
+		}
+
+		.features__list {
+			display: flex;
+			justify-content: center;
+			padding-top: 100px;
+			.list__item {
+				
+				width: 250px;
+				margin: 0 25px;
+
+
+				.item_head {
+					display: flex;
+					flex: inline-flex;
+
+					.item_title {
+						max-width: 190px;
+						padding-left: 10px;
+					}
+				}
+
+				.text {
+					padding: 20px 0;
+				}
+			}
+		}
+	}
+}
+
 .prototyping-1 {
 	.container {
 		max-width: 1050px;
