@@ -83,6 +83,8 @@
 			.application {
 				display: flex;
 				justify-content: start;
+				flex-wrap: wrap;
+
 				.app-text {
 					padding-top: 160px;
 					font-family: 'Roboto';
@@ -166,7 +168,9 @@
 		.features__list {
 			display: flex;
 			justify-content: center;
+			flex-wrap: wrap;
 			padding-top: 100px;
+
 			.list__item {
 				
 				width: 250px;
@@ -330,8 +334,7 @@
 		flex-wrap: wrap;
 
 		.ls-partners__item {
-			max-width: 33%;
-			// min-height: 345px;
+			width: 345px;
 			padding: 0 35px 95px;
 			text-align: center;
 
@@ -350,8 +353,8 @@
 			}
 
 			.client-desc {
-				max-width: 220px;
-				min-height: 135px;
+				// max-width: 220px;
+				// min-height: 135px;
 				font-family: 'Roboto';
 				font-style: normal;
 				font-weight: 400;
@@ -671,6 +674,7 @@
 		.wrapper {
 			display: flex;
 			justify-content: center;
+			flex-wrap: wrap;
 
 			.feed-form {
 				max-width: 400px;
@@ -829,6 +833,7 @@
 		margin: 130px auto;
 		display: flex;
 		justify-content: center;
+		flex-wrap: wrap;
 
 		font-family: 'Roboto';
 		font-style: normal;
