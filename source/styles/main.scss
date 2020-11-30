@@ -35,6 +35,14 @@
 								text-align: center;
 								letter-spacing: 0.2px;
 								color: #FFFFFF;
+
+								a {
+									text-decoration: none;
+								}
+
+								a:visited {
+									color: #FFFFFF;
+								}
 							}
 						}
 					}
